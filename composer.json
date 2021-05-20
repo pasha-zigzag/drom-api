@@ -1,0 +1,27 @@
+{
+  "name": "drom-test/example-com-api-client",
+  "type": "library",
+  "description": "",
+  "authors": [
+    {
+      "name": "Pavel Zagainov",
+      "email": "pavel-zagainov1996@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ExampleComApiClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "UnitTest\\": "tests/unit/"
+    }
+  },
+  "require": {
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
